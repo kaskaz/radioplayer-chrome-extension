@@ -1,0 +1,80 @@
+
+/**
+ * Popup related
+ */
+.player {
+    background-color: rgb(217, 255, 102);
+}
+
+button {
+    margin-top: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: center;
+}
+
+.player-controls button span {
+    font-size: 20px;
+}
+
+.player-details {
+    margin: 5px;
+    border-radius: 10%;
+    background-color: rgb(230, 255, 153);
+    text-align: center;
+}
+
+span#label-name {
+    font-size: 16px;
+}
+
+span#label-time {
+    margin-right: 4px;
+}
+
+/**
+ * Options related
+ */
+.options {
+    display: grid;
+    justify-content: center;
+}
+
+.list {
+    margin-top: 5px;
+    border: 2px black solid;
+    text-align: center;
+}
+
+.list span {
+    font-size: 20px;
+}
+
+table {
+    display: grid;
+    justify-content: center;
+}
+
+table button span {
+    font-size: 26px;
+}
+
+.controls {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px black solid;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+input {
+    margin: 2px;
+}

@@ -13,13 +13,12 @@ A radio player as a chrome extension
     * options
 
 * Options
-    * import - playlist from a JSON file
-    * export - playlist to a JSON file
-    * station - add, edit, remove, set as default
+    * import - playlist from a JSON file __[not implemented yet]__
+    * export - playlist to a JSON file __[not implemented yet]__
+    * station - add, edit, remove
 
 ## Playlist file
 This is an example of a JSON file.
-
 
     {
         name : "CV Music",
@@ -37,16 +36,3 @@ This is an example of a JSON file.
 3. Open Extensions option from menu ('More tools')
 4. Select the option 'Load unpacked' and select the project folder
 
-## Architecture
-
-### Controllers
-* __Player__ - module that implements the chrome pop-up window where user can select the radio and control audio output.
-
-* __Options__ - module that implements the chrome options window where user can control the playlist.
-
-* __Playlist__ - module that implements a list of radio stations. It has the following features: current playing station; moves to next/previous station; gives a list of station; save or remove a station;
-
-### Models
-* __Station__ - name (string), URL (string)
-
-* __StationInt__ - name (string), URL (string), id (number), default (boolean) 
